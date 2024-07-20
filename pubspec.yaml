@@ -1,0 +1,33 @@
+name: policias_secretos_app
+description: Aplicación para policías secretos
+
+
+
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  image_picker: ^1.0.4
+  record: ^4.4.4
+  audioplayers: ^5.2.0
+  intl: ^0.18.1
+
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png" 
+  flutter_lints: ^3.0.0
